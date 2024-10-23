@@ -9,7 +9,7 @@ class Camera:
         self.camera = Vector2(0, 0)
         self.width = width
         self.height = height
-        self.smooth_speed = 4  # Adjust this value to control how smooth the camera movement is
+        self.smooth_speed = 6  # Adjust this value to control how smooth the camera movement is
         self.target = None
 
     def set_target(self, target):

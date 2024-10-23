@@ -23,7 +23,8 @@ class Game:
         self.gameOver = False
 
     def update(self):
-        utils.world.Step(1.0 / 60.0, 6, 2)
+        # utils.world.Step(1.0 / 60.0, 6, 2)
+        utils.world.Step(utils.dt, 6, 2)
         if utils.contactListener:
             for bodyA, bodyB in utils.contactListener.collisions:
                 sound_effect.play()

@@ -6,7 +6,7 @@ from utils import utils
 
 
 class Square:
-    def __init__(self, pos, width=35, color=(255, 255, 255)):
+    def __init__(self, pos, width=25, color=(255, 255, 255)):
         self.color = color
         self.width = width
         self.pos = pos
